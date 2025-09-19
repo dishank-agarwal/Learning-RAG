@@ -74,7 +74,7 @@ prompt = f"Please rephrase the following text to be a clear, concise answer:\n\n
 
 from google import genai
 
-client = genai.Client(api_key="AIzaSyDvinbCqf62JOdu6YFJKj4j_2oviQ_r6sQ")
+client = genai.Client(api_key="apikey")
 response = client.models.generate_content(
         model="gemini-2.0-flash", contents=prompt
     )
